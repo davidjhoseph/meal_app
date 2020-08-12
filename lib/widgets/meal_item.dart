@@ -3,13 +3,14 @@ import '../screens/meal_detail_screen.dart';
 import '../models/meal.dart';
 
 class MealItem extends StatelessWidget {
-  MealItem(
-      {@required this.id,
-      @required this.imageUrl,
-      @required this.title,
-      @required this.affordability,
-      @required this.complexity,
-      @required this.duration});
+  MealItem({
+    @required this.id,
+    @required this.imageUrl,
+    @required this.title,
+    @required this.affordability,
+    @required this.complexity,
+    @required this.duration,
+  });
   final String id;
   final String imageUrl;
   final String title;
